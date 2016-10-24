@@ -1,0 +1,18 @@
+# Convert a float to a string with 2 decimal digits.
+iex> :io.format("~.2f~n", [2.0/3.0])
+
+# Get the value of an operating system environment variable.
+iex> System.get_env("HOME")
+
+# Return the extension component of a file name
+iex> Path.extname("dave/test.exs")
+
+# Return the current working directory of the process
+iex> System.cwd
+
+# Convert a string containing JSON into Elixir data structures
+# https://github.com/guedes/exjson
+
+
+# Execute an command in your operating system's shell
+iex> System.cmd("date")
